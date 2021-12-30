@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 256ms ease-in-out;
+    padding: 0.5em 1em;
+    &:hover {
+        background: #ffe082;
+    }
+    p {
+        margin: 0;
+        padding: 0 1em;
+        width: 100%;
+        text-align: left;
+    }
+    .completed {
+        text-decoration: line-through;
+    }
+    .button-item {
+        width: 20px;
+        height: 20px;
+        justify-content: center;
+    }
+}
